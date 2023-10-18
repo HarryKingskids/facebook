@@ -1,0 +1,122 @@
+.top {
+  height: 60px;
+}
+p:hover{
+  background-color:gray
+
+}
+.left {
+}
+
+.center {
+  flex: 6;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  height: 95vh;
+}
+.nothing {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+main a {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+main p {
+  display: flex;
+}
+.your {
+  display: flex;
+}
+.all {
+  display: flex;
+  justify-content: space-between;
+  text-align: right;
+}
+.end {
+  display: flex;
+  flex-direction: column;
+}
+.right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.class:hover{
+  background-color:gray;
+}
+.lmao{
+  justify-content: center;
+  text-align: center;
+  }
+  .photo{
+    width: 700px;
+  }
+  img:hover{
+    background-color: grey;
+
+  }
+  .margin{
+ margin-right: 30px;
+  }
+  img{
+    margin-right: 20px;
+  }
+  small:hover{
+    background-color: gray;
+  }
+  small{
+    display: flex;
+    align-self: center;
+  }
+  
+  
+@media screen and (max-width: 600px) and (min-width:451px) 
+  {
+.left{
+display: none;
+ 
+  }
+  .nothing {
+    justify-content: space-between;
+    justify-content: space-evenly;
+    body {
+      transition: 0.4s ease-in;
+    }
+  }
+ }
+@media screen and (max-width: 600px){
+.nothing{
+  justify-content: space-evenly;
+}
+.left{
+  display: none;
+}
+.photo{
+  width: fit-content                                        ;
+}
+}
+@media screen and (max-width: 600px) and (min-width:451px) 
+  {
+.left{
+display: none;
+ 
+  }
+  .nothing {
+    justify-content: space-between;
+    justify-content: space-evenly;
+    body {
+      transition: 0.4s ease-in;
+    }
+  }
+ }
+@media screen and (max-width:450px) and (min-width:1px){
+.right{
+  display: none;
+}
+}

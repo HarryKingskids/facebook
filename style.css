@@ -1,0 +1,24 @@
+.nothing {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+main a {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+main p {
+  display: flex;
+}
+.your {
+  display: flex;
+}
+.all {
+  display: flex;
+  justify-content: space-between;
+  text-align: right;
+}
+.end {
+  display: flex;
+}
